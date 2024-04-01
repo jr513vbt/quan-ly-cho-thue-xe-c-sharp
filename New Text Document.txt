@@ -1,0 +1,33 @@
+DN
+DK 	
+GD
+TTCN 	
+KH
+TX
+HD
+TTX
+TK 
+XCT 
+CT_TT
+-----	\/
+=================
+XE_CHO_THUE 	// hinhAnh 200, moTa 100, 	\/
+KH		// ten_KH 15, diaChi 100,	\/
+HD		// +Tk_KH 10, ten_KH 15,   	\/
+=================
+CellContentClick? 	\/
+ChinhLaiBG 4c		\/
+DS_TK //add TK có Q là KH thì thêm vào lẫn KHACH_HANG		\/
+DS_HD //add HD thì add nốt CTTT					\/
+
+***************************************
+HD_CTTT		//FK	Maybe??Lol =)))
+
+TimKiem?		\/
+======================
+Gợi ý điền nhanh	x? //có thể tạo form 2 datagridview để điền hoặc tra tt nhanh
+
+quản lý lịch cho thuê
+
+
+

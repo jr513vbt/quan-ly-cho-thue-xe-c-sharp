@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{78ABC62B-1634-4B7A-AD12-ADD278C96528}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DichVuChoThueXe</RootNamespace>
+    <AssemblyName>DichVuChoThueXe</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CT_TT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CT_TT.Designer.cs">
+      <DependentUpon>CT_TT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DangKy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DangKy.Designer.cs">
+      <DependentUpon>DangKy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DangNhap.Designer.cs">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DS_HD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DS_HD.Designer.cs">
+      <DependentUpon>DS_HD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DS_KH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DS_KH.Designer.cs">
+      <DependentUpon>DS_KH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DS_TK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DS_TK.Designer.cs">
+      <DependentUpon>DS_TK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DS_TX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DS_TX.Designer.cs">
+      <DependentUpon>DS_TX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DS_XCT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DS_XCT.Designer.cs">
+      <DependentUpon>DS_XCT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GiaoDien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GiaoDien.Designer.cs">
+      <DependentUpon>GiaoDien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ham.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TrangThaiXe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrangThaiXe.Designer.cs">
+      <DependentUpon>TrangThaiXe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TT_CaNhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TT_CaNhan.Designer.cs">
+      <DependentUpon>TT_CaNhan.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CT_TT.resx">
+      <DependentUpon>CT_TT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DangKy.resx">
+      <DependentUpon>DangKy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DangNhap.resx">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DS_HD.resx">
+      <DependentUpon>DS_HD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DS_KH.resx">
+      <DependentUpon>DS_KH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DS_TK.resx">
+      <DependentUpon>DS_TK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DS_TX.resx">
+      <DependentUpon>DS_TX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DS_XCT.resx">
+      <DependentUpon>DS_XCT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GiaoDien.resx">
+      <DependentUpon>GiaoDien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="TrangThaiXe.resx">
+      <DependentUpon>TrangThaiXe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TT_CaNhan.resx">
+      <DependentUpon>TT_CaNhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TTCN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9c331692-616b-42b5-85a5-5e81c54a5061.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cau-truc-tai-chinh-doanh-nghiep394505.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GD3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GD1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\matrix.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

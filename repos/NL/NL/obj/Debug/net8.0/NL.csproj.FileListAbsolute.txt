@@ -1,0 +1,14 @@
+C:\Users\Admin\source\repos\NL\NL\bin\Debug\net8.0\NL.exe
+C:\Users\Admin\source\repos\NL\NL\bin\Debug\net8.0\NL.deps.json
+C:\Users\Admin\source\repos\NL\NL\bin\Debug\net8.0\NL.runtimeconfig.json
+C:\Users\Admin\source\repos\NL\NL\bin\Debug\net8.0\NL.dll
+C:\Users\Admin\source\repos\NL\NL\bin\Debug\net8.0\NL.pdb
+C:\Users\Admin\source\repos\NL\NL\obj\Debug\net8.0\NL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\NL\NL\obj\Debug\net8.0\NL.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\NL\NL\obj\Debug\net8.0\NL.AssemblyInfo.cs
+C:\Users\Admin\source\repos\NL\NL\obj\Debug\net8.0\NL.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\NL\NL\obj\Debug\net8.0\NL.dll
+C:\Users\Admin\source\repos\NL\NL\obj\Debug\net8.0\refint\NL.dll
+C:\Users\Admin\source\repos\NL\NL\obj\Debug\net8.0\NL.pdb
+C:\Users\Admin\source\repos\NL\NL\obj\Debug\net8.0\NL.genruntimeconfig.cache
+C:\Users\Admin\source\repos\NL\NL\obj\Debug\net8.0\ref\NL.dll
